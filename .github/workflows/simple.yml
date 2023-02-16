@@ -9,7 +9,7 @@ jobs:
       - name: multiline script
         run: |
           node -v
-          npm -
+          npm -v
       - name: python commands
         run: |
           import platform 
