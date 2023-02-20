@@ -10,7 +10,7 @@ jobs:
           ls -a
       - name: Checkout
         uses: actions/checkout@v3
-      - name: List Files after checkout
+      - name: List Files After Checkout
         run: |
           pwd 
           ls -a
