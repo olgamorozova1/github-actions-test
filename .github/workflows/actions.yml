@@ -1,8 +1,8 @@
-name: Actions Workflow 1
-#on : [pull_request]
-on: 
-  schedule:
-    - cron: "0/5 * * * *"
+name: Actions Workflow
+on : [push]
+#on: 
+#  schedule:
+#    - cron: "0/5 * * * *"
 jobs: 
   run-github-actions: 
     runs-on: ubuntu-latest
