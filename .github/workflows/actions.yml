@@ -1,5 +1,8 @@
 name: Actions Workflow
-on : [push, pull_request]
+#on : [pull_request]
+on: 
+  schedule:
+    - cron: "0/5 * * * *"
 jobs: 
   run-github-actions: 
     runs-on: ubuntu-latest
@@ -10,7 +13,7 @@ jobs:
           ls -a
       - name: Checkout
         uses: actions/checkout@v3
-      - name: List Files after checkout
+      - name: List Files After Checkout
         run: |
           pwd 
           ls -a
