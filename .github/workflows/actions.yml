@@ -1,5 +1,9 @@
 name: Actions Workflow
-on : [push]
+on : 
+  push: 
+    branches: 
+      - master
+      - 'feauture/*'
 #on: 
 #  schedule:
 #    - cron: "0/5 * * * *"
