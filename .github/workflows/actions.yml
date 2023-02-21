@@ -1,4 +1,4 @@
-name: Actions Workflow
+name: Actions Workflow 1
 #on : [pull_request]
 on: 
   schedule:
