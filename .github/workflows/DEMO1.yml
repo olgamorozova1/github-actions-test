@@ -1,5 +1,5 @@
 name: DEMO workflow
-on: [push]
+on: [push, workflo_dispatch]
 jobs:
   print:
     runs-on: ubuntu-latest
